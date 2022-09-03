@@ -1,0 +1,22 @@
+package com.bridgelabz.candidatemicroservice.service;
+
+import com.bridgelabz.candidatemicroservice.dto.BankDTO;
+import com.bridgelabz.candidatemicroservice.model.BankModel;
+
+import java.util.List;
+
+/**
+ * Purpose:Creating Interface for bankDetails service
+ * @author Manoj
+ * @Param  all service Methods
+ * Version 1.0
+ */
+public interface IBankService {
+    BankModel addBankDetails(BankDTO bankModel);
+
+    BankModel editBank(Long id, BankDTO bankDTO);
+
+    List<BankModel> viewList();
+
+    BankModel removeBank(Long id);
+}

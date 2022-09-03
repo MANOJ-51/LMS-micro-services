@@ -1,0 +1,29 @@
+package com.bridgelabz.mentormicroservice.service;
+
+import com.bridgelabz.mentormicroservice.dto.MentorDTO;
+import com.bridgelabz.mentormicroservice.model.MentorModel;
+
+import java.util.List;
+
+/**
+ * Purpose:Creating Interface for Mentor service
+ * @author Manoj
+ * @Param  all service Methods
+ * Version 1.0
+ */
+public interface IMentorService {
+    MentorModel addMentor(MentorDTO mentorDTO);
+
+    MentorModel editMentor(Long id, MentorDTO mentorDTO);
+
+    List<MentorModel> viewList();
+
+    MentorModel removeMentor(Long id);
+
+    MentorModel addPath(Long id, String profilePath);
+
+    MentorModel getListId(Long id);
+
+    Long getCountByType(String userChoice);
+
+}

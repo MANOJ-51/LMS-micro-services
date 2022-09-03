@@ -1,0 +1,65 @@
+package com.bridgelabz.candidatemicroservice.controller;
+
+import com.bridgelabz.candidatemicroservice.dto.HiringCandidateDTO;
+import com.bridgelabz.candidatemicroservice.model.HiringCandidateModel;
+import com.bridgelabz.candidatemicroservice.service.IHiringCandidateService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+/**
+ * Purpose:Creating apis for Hiring candidate Controller
+ * @author Manoj
+ * @Param Http METHODS
+ * Version 1.0
+ */
+@RestController
+@RequestMapping("/hiringCandidateApis")
+public class HiringCandidateController {
+    @Autowired
+    IHiringCandidateService iHiringCandidateService;
+
+    /**
+     * Purpose:Creating method to add hiring candidate
+     * @author Manoj
+     * @Param hiringCandidateDto,token,bankID,
+     */
+    @PostMapping("/createHiringCandidate")
+    public HiringCandidateModel createHiringCandidate(@RequestParam Long bankId,
+                                                      @RequestBody @Valid HiringCandidateDTO hiringCandidateDTO){
+        return iHiringCandidateService.addHiringCandidate(bankId,hiringCandidateDTO);
+    }
+
+    /**
+     * Purpose:Creating method to Update Hiring candidate
+     * @author Manoj
+     * @Param HiringCandidateDto ,id ,token,bankID
+     */
+    @PutMapping("/updateHiringCandidate/{id}")
+    public HiringCandidateModel updateHiringCandidate(@PathVariable Long id ,@RequestParam Long bankId,
+                                                      @RequestBody @Valid HiringCandidateDTO hiringCandidateDTO){
+        return iHiringCandidateService.editHiringCandidate(id,bankId,hiringCandidateDTO);
+    }
+
+    /**
+     * Purpose:Creating method to get List of Hiring candidate
+     * @author Manoj
+     * @Param  token
+     */
+    @GetMapping("/listHiringCandidate")
+    public List<HiringCandidateModel> getList ( ){
+        return iHiringCandidateService.viewList();
+    }
+
+    /**
+     * Purpose:Creating method to Delete Hiring Candidate
+     * @author Manoj
+     * @Param  token,id
+     */
+    @DeleteMapping("/deleteHiringCandidate/{id}")
+    public HiringCandidateModel deleteHiringCandidate( @PathVariable Long id){
+        return iHiringCandidateService.removeHiringCandidate(id);
+    }
+}

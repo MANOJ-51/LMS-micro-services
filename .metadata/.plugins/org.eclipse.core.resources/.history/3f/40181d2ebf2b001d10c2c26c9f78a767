@@ -1,0 +1,64 @@
+package com.bridgelabz.candidatemicroservice.controller;
+
+import com.bridgelabz.candidatemicroservice.dto.BankDTO;
+import com.bridgelabz.candidatemicroservice.model.BankModel;
+import com.bridgelabz.candidatemicroservice.service.IBankService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+/**
+ * Purpose:Creating apis for Bank Controller
+ * @author Manoj
+ * @Param Http METHODS
+ * Version 1.0
+ */
+@RestController
+@RequestMapping("/bankDetailsApis")
+public class BankController {
+
+    @Autowired
+    IBankService iBankService;
+
+    /**
+     * Purpose:Creating method to add bank
+     * @author Manoj
+     * @Param bankDto,token
+     */
+    @PostMapping("/addBankDetails")
+    public BankModel addBank ( @RequestHeader String token,@RequestBody @Valid BankDTO bankDTO){
+        return iBankService.addBankDetails(bankDTO);
+    }
+
+    /**
+     * Purpose:Creating method to Update Bank
+     * @author Manoj
+     * @Param BankDto ,id ,token
+     */
+    @PutMapping("/updateBankDetails/{id}")
+    public BankModel updateBank (@RequestHeader String token,@PathVariable Long id , @RequestBody @Valid BankDTO bankDTO){
+        return iBankService.editBank(id,bankDTO);
+    }
+
+    /**
+     * Purpose:Creating method to get List of Bank
+     * @author Manoj
+     * @Param  token
+     */
+    @GetMapping("/getBankList")
+    public List<BankModel> getList(@RequestHeader String token){
+        return iBankService.viewList();
+    }
+
+    /**
+     * Purpose:Creating method to Delete Bank
+     * @author Manoj
+     * @Param  token,id
+     */
+    @DeleteMapping("/deleteBank/{id}")
+    public BankModel deleteBank (@RequestHeader String token,@PathVariable Long id){
+        return iBankService.removeBank(id);
+    }
+}

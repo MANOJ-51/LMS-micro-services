@@ -1,0 +1,23 @@
+package com.bridgelabz.candidatemicroservice.service;
+
+import com.bridgelabz.candidatemicroservice.dto.HiringCandidateDTO;
+import com.bridgelabz.candidatemicroservice.model.HiringCandidateModel;
+
+
+import java.util.List;
+
+/**
+ * Purpose:Creating Interface for HiringCandidate service
+ * @author Manoj
+ * @Param  all service Methods
+ * Version 1.0
+ */
+public interface IHiringCandidateService {
+    HiringCandidateModel addHiringCandidate(Long bankId, HiringCandidateDTO hiringCandidateDTO);
+
+    HiringCandidateModel editHiringCandidate(Long id, Long bankId, HiringCandidateDTO hiringCandidateDTO);
+
+    List<HiringCandidateModel> viewList();
+
+    HiringCandidateModel removeHiringCandidate(Long id);
+}

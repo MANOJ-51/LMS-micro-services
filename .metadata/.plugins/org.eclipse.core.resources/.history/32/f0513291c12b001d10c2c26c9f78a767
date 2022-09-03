@@ -1,0 +1,24 @@
+package com.bridgelabz.candidatemicroservice.service;
+
+import com.bridgelabz.candidatemicroservice.dto.CandidateDTO;
+import com.bridgelabz.candidatemicroservice.model.CandidateModel;
+
+import java.util.List;
+
+/**
+ * Purpose:Creating Interface for Candidate service
+ * @author Manoj
+ * @Param  all service Methods
+ * Version 1.0
+ */
+public interface ICandidateService {
+    CandidateModel addCandidate(Long techId, CandidateDTO candidateDTO);
+
+    CandidateModel editCandidate(Long id, Long techId, CandidateDTO candidateDTO);
+
+    List<CandidateModel> viewList();
+
+    CandidateModel removeCandidate(Long id);
+
+    Long getCount(String userChoice);
+}

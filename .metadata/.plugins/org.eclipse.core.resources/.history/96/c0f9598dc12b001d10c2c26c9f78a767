@@ -1,0 +1,106 @@
+package com.bridgelabz.candidatemicroservice.controller;
+
+import com.bridgelabz.candidatemicroservice.dto.CandidateDTO;
+import com.bridgelabz.candidatemicroservice.model.CandidateModel;
+import com.bridgelabz.candidatemicroservice.service.ICandidateService;
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.JobParameters;
+import org.springframework.batch.core.JobParametersBuilder;
+import org.springframework.batch.core.JobParametersInvalidException;
+import org.springframework.batch.core.launch.JobLauncher;
+import org.springframework.batch.core.repository.JobExecutionAlreadyRunningException;
+import org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException;
+import org.springframework.batch.core.repository.JobRestartException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+/**
+ * Purpose:Creating apis for Candidate Controller
+ * @author Manoj
+ * @Param Http METHODS
+ * Version 1.0
+ */
+@RestController
+@RequestMapping("/candidateApis")
+public class CandidateController {
+    @Autowired
+    ICandidateService iCandidateService;
+
+    @Autowired
+    private JobLauncher jobLauncher;
+
+    @Autowired
+    private Job job;
+
+    /**
+     * Purpose:Creating method to add candidate
+     * @author Manoj
+     * @Param candidateDto,token,techID
+     */
+    @PostMapping("/createCandidate")
+    public CandidateModel createCandidate(@RequestParam Long techId,
+                                          @RequestBody @Valid CandidateDTO candidateDTO){
+        return iCandidateService.addCandidate(techId,candidateDTO);
+    }
+
+    /**
+     * Purpose:Creating method to Update Candidate
+     * @author Manoj
+     * @Param CandidateDto ,id ,token,techID
+     */
+    @PutMapping("/updateCandidate/{id}")
+    public CandidateModel updateCandidate(@PathVariable Long id ,@RequestParam Long techId,
+                                          @RequestBody @Valid CandidateDTO candidateDTO){
+        return iCandidateService.editCandidate(id,techId,candidateDTO);
+    }
+
+    /**
+     * Purpose:Creating method to get List of Candidate
+     * @author Manoj
+     * @Param  token
+     */
+    @GetMapping("/listCandidate")
+    public List<CandidateModel> getList (){
+        return iCandidateService.viewList();
+    }
+
+    /**
+     * Purpose:Creating method to Delete Candidate
+     * @author Manoj
+     * @Param  token,id
+     */
+    @DeleteMapping("/deleteCandidate/{id}")
+    public CandidateModel deleteCandidate(@PathVariable Long id){
+        return iCandidateService.removeCandidate(id);
+    }
+
+    /**
+     * Purpose:Creating method to get count of Status
+     * @author Manoj
+     * @Param  token,userChoice
+     */
+    @GetMapping("/countOfStatus")
+    public Long countOfStatus (@RequestParam String userChoice){
+        return iCandidateService.getCount(userChoice);
+    }
+
+    /**
+     * Purpose:Creating method to add csv data into the database
+     * @author Manoj
+     * @Param
+     */
+    @PostMapping("/importCandidates")
+    public void importCsvToDbJob(){
+        JobParameters jobParameters = new JobParametersBuilder()
+                .addLong("startAt",System.currentTimeMillis()).toJobParameters();
+        try {
+            jobLauncher.run(job,jobParameters);
+        }catch (JobExecutionAlreadyRunningException | JobRestartException | JobInstanceAlreadyCompleteException |
+                JobParametersInvalidException exception){
+            exception.printStackTrace();
+        }
+    }
+}

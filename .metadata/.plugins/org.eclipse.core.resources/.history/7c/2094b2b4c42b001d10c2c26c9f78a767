@@ -1,0 +1,80 @@
+package com.bridgelabz.candidatemicroservice.controller;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.apache.http.HttpStatus;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bridgelabz.candidatemicroservice.dto.HiringCandidateDTO;
+import com.bridgelabz.candidatemicroservice.model.HiringCandidateModel;
+import com.bridgelabz.candidatemicroservice.service.IHiringCandidateService;
+import com.bridgelabz.candidatemicroservice.util.ResponseClass;
+
+/**
+ * Purpose:Creating apis for Hiring candidate Controller
+ * @author Manoj
+ * @Param Http METHODS
+ * Version 1.0
+ */
+@RestController
+@RequestMapping("/hiringCandidateApis")
+public class HiringCandidateController {
+    @Autowired
+    IHiringCandidateService iHiringCandidateService;
+
+    /**
+     * Purpose:Creating method to add hiring candidate
+     * @author Manoj
+     * @Param hiringCandidateDto,token,bankID,
+     */
+    @PostMapping("/createHiringCandidate")
+    public ResponseEntity<ResponseClass> createHiringCandidate(@RequestHeader String token,@RequestParam Long bankId,
+                                                      @RequestBody @Valid HiringCandidateDTO hiringCandidateDTO){
+    	ResponseClass responseClass = iHiringCandidateService.addHiringCandidate(token,bankId,hiringCandidateDTO);
+        return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to Update Hiring candidate
+     * @author Manoj
+     * @Param HiringCandidateDto ,id ,token,bankID
+     */
+    @PutMapping("/updateHiringCandidate/{id}")
+    public ResponseEntity<ResponseClass> updateHiringCandidate(@RequestHeader String token,@PathVariable Long id ,@RequestParam Long bankId,
+                                                      @RequestBody @Valid HiringCandidateDTO hiringCandidateDTO){
+        return iHiringCandidateService.editHiringCandidate(token,id,bankId,hiringCandidateDTO);
+    }
+
+    /**
+     * Purpose:Creating method to get List of Hiring candidate
+     * @author Manoj
+     * @Param  token
+     */
+    @GetMapping("/listHiringCandidate")
+    public List<HiringCandidateModel> getList ( @RequestHeader String token){
+        return iHiringCandidateService.viewList(token);
+    }
+
+    /**
+     * Purpose:Creating method to Delete Hiring Candidate
+     * @author Manoj
+     * @Param  token,id
+     */
+    @DeleteMapping("/deleteHiringCandidate/{id}")
+    public ResponseEntity<ResponseClass> deleteHiringCandidate(@RequestHeader String token, @PathVariable Long id){
+        return iHiringCandidateService.removeHiringCandidate(token,id);
+    }
+}

@@ -1,0 +1,92 @@
+package com.bridgelabz.mentormicroservice.controller;
+
+import com.bridgelabz.mentormicroservice.dto.MentorDTO;
+import com.bridgelabz.mentormicroservice.model.MentorModel;
+import com.bridgelabz.mentormicroservice.service.IMentorService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+/**
+ * Purpose:Creating apis for mentor Controller
+ * @author Manoj
+ * @Param Http METHODS
+ * Version 1.0
+ */
+@RestController
+@RequestMapping("/mentorController")
+public class MentorController {
+    @Autowired
+    IMentorService iMentorService;
+    /**
+     * Purpose:Creating method to add mentor
+     * @author Manoj
+     * @Param mentorDto,token
+     */
+    @PostMapping("/createMentor")
+    public MentorModel createMentor (@RequestBody @Valid MentorDTO mentorDTO){
+        return iMentorService.addMentor(mentorDTO);
+    }
+
+    /**
+     * Purpose:Creating method to Update mentor
+     * @author Manoj
+     * @Param MentorDto ,id ,token
+     */
+    @PutMapping ("/updateMentor/{id}")
+    public MentorModel updateMentor(@PathVariable Long id, @RequestBody @Valid MentorDTO mentorDTO){
+        return iMentorService.editMentor(id,mentorDTO);
+    }
+
+    /**
+     * Purpose:Creating method to get List of mentor
+     * @author Manoj
+     * @Param  token
+     */
+    @GetMapping("/mentorsList")
+    public List<MentorModel> getList (){
+        return iMentorService.viewList();
+    }
+
+    /**
+     * Purpose:Creating method to Delete mentor
+     * @author Manoj
+     * @Param  token,id
+     */
+    @DeleteMapping("/deleteMentor/{id}")
+    public MentorModel deleteMentor (@PathVariable Long id){
+        return iMentorService.removeMentor(id);
+    }
+
+    /**
+     * Purpose:Creating method to add profile path to mentor
+     * @author Manoj
+     * @Param  token,profilePath,id
+     */
+    @PostMapping("addProfilePath/{id}")
+    public MentorModel addProfile (@PathVariable Long id,@RequestParam String profilePath){
+        return iMentorService.addPath(id,profilePath);
+    }
+
+    /**
+     * Purpose:Creating method to get list by id of mentor
+     * @author Manoj
+     * @Param  token,id
+     */
+    @GetMapping("/listById/{id}")
+    public MentorModel getListById (@PathVariable Long id ){
+        return iMentorService.getListId(id);
+    }
+
+    /**
+     * Purpose:Creating method to get count of mentorType
+     * @author Manoj
+     * @Param  token,userChoice
+     */
+    @GetMapping("/getCountByType")
+    public Long getCountByType (@RequestParam String userChoice){
+        return iMentorService.getCountByType(userChoice);
+    }
+}

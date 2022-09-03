@@ -1,0 +1,105 @@
+package com.bridgelabz.mentormicroservice.controller;
+
+import com.bridgelabz.mentormicroservice.dto.MentorDTO;
+import com.bridgelabz.mentormicroservice.model.MentorModel;
+import com.bridgelabz.mentormicroservice.service.IMentorService;
+import com.bridgelabz.mentormicroservice.util.ResponseClass;
+
+import org.apache.http.protocol.HTTP;
+import org.aspectj.weaver.patterns.HasThisTypePatternTriedToSneakInSomeGenericOrParameterizedTypePatternMatchingStuffAnywhereVisitor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+/**
+ * Purpose:Creating apis for mentor Controller
+ * @author Manoj
+ * @Param Http METHODS
+ * Version 1.0
+ */
+@RestController
+@RequestMapping("/mentorController")
+public class MentorController {
+    @Autowired
+    IMentorService iMentorService;
+    /**
+     * Purpose:Creating method to add mentor
+     * @author Manoj
+     * @Param mentorDto,token
+     */
+    @PostMapping("/createMentor")
+    public ResponseEntity<ResponseClass> createMentor (@RequestHeader String token,@RequestBody @Valid MentorDTO mentorDTO){
+    	ResponseClass responseClass = iMentorService.addMentor(token,mentorDTO);
+        return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to Update mentor
+     * @author Manoj
+     * @Param MentorDto ,id ,token
+     */
+    @PutMapping ("/updateMentor/{id}")
+    public ResponseEntity<ResponseClass>  updateMentor(@RequestHeader String token,@PathVariable Long id, @RequestBody @Valid MentorDTO mentorDTO){
+    	ResponseClass responseClass = iMentorService.editMentor(token,id,mentorDTO);
+    	return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to get List of mentor
+     * @author Manoj
+     * @Param  token
+     */
+    @GetMapping("/mentorsList")
+    public ResponseEntity<List<?>> getList (@RequestHeader String token){
+    	List<MentorModel> responseClass = iMentorService.viewList(token);
+        return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to Delete mentor
+     * @author Manoj
+     * @Param  token,id
+     */
+    @DeleteMapping("/deleteMentor/{id}")
+    public ResponseEntity<ResponseClass>  deleteMentor (@RequestHeader String token,@PathVariable Long id){
+    	ResponseClass responseClass = iMentorService.removeMentor(token,id);
+        return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to add profile path to mentor
+     * @author Manoj
+     * @Param  token,profilePath,id
+     */
+    @PostMapping("addProfilePath/{id}")
+    public ResponseEntity<ResponseClass>  addProfile (@RequestHeader String token,@PathVariable Long id,@RequestParam String profilePath){
+    	ResponseClass responseClass = iMentorService.addPath(token,id,profilePath);
+    	return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to get list by id of mentor
+     * @author Manoj
+     * @Param  token,id
+     */
+    @GetMapping("/listById/{id}")
+    public ResponseEntity<ResponseClass>  getListById (@RequestHeader String token,@PathVariable Long id ){
+    	ResponseClass responseClass = iMentorService.getListId(token,id);
+        return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+
+    /**
+     * Purpose:Creating method to get count of mentorType
+     * @author Manoj
+     * @Param  token,userChoice
+     */
+    @GetMapping("/getCountByType")
+    public ResponseEntity<ResponseClass>  getCountByType (@RequestHeader String token,@RequestParam String userChoice){
+    	ResponseClass responseClass = iMentorService.getCountByType(token,userChoice);
+        return new ResponseEntity<>(responseClass,HttpStatus.OK);
+    }
+}
