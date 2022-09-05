@@ -39,7 +39,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public ResponseClass addMentor(String token,MentorDTO mentorDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
         MentorModel mentorModel = new MentorModel(mentorDTO);
         mentorModel.setCreatedDate(LocalDateTime.now());
@@ -56,7 +56,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public ResponseClass editMentor(String token,Long id, MentorDTO mentorDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<MentorModel> isMentorPresent = iMentorRepository.findById(id);
             if (isMentorPresent.isPresent()){
@@ -90,7 +90,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public List<MentorModel> viewList(String token) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             List<MentorModel> getList = iMentorRepository.findAll();
             if (getList.size()>0){
@@ -107,7 +107,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public ResponseClass removeMentor(String token,Long id) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<MentorModel> isMentorPresent = iMentorRepository.findById(id);
             if (isMentorPresent.isPresent()){
@@ -126,7 +126,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public ResponseClass addPath(String token,Long id, String profilePath) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<MentorModel> isMentorPresent = iMentorRepository.findById(id);
             isMentorPresent.get().setProfilePath(profilePath);
@@ -144,7 +144,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public ResponseClass getListId(String token,Long id) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
         return new ResponseClass(200,"success",iMentorRepository.getMentorModelById(id));
         }
@@ -158,7 +158,7 @@ public class MentorService implements IMentorService {
      */
     @Override
     public ResponseClass getCountByType(String token,String userChoice) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
         return new ResponseClass(200,"success",iMentorRepository.countByMentorType(userChoice));
        }

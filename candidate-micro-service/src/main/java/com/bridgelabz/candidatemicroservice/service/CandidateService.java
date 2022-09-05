@@ -37,7 +37,7 @@ public class CandidateService implements ICandidateService {
      */
     @Override
     public ResponseClass addCandidate(String token, CandidateDTO candidateDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             CandidateModel candidateModel = new CandidateModel(candidateDTO);
             candidateModel.setCreatedStamp(LocalDateTime.now());
@@ -54,7 +54,7 @@ public class CandidateService implements ICandidateService {
      */
     @Override
     public ResponseClass editCandidate(String token,Long id, CandidateDTO candidateDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<CandidateModel> isIdPresent = iCandidateRepository.findById(id);
             if (isIdPresent.isPresent()){
@@ -88,7 +88,7 @@ public class CandidateService implements ICandidateService {
      */
     @Override
     public List<CandidateModel> viewList(String token) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             List<CandidateModel> getList = iCandidateRepository.findAll();
             if (getList.size()>0){
@@ -106,7 +106,7 @@ public class CandidateService implements ICandidateService {
      */
     @Override
     public ResponseClass removeCandidate(String token,Long id) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<CandidateModel> isIdPresent = iCandidateRepository.findById(id);
             if (isIdPresent.isPresent()){

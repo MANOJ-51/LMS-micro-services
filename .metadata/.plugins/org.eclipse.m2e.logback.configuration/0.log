@@ -815,3 +815,1048 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2022-09-04 01:48:08,122 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-04 01:48:08,122 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-09-04 01:48:08,122 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\mentor-micro-service\src\test\resources
+2022-09-05 15:22:34,683 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-05 15:34:36,937 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:34:39,135 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul-proxy/src/main/java
+2022-09-05 15:34:39,136 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul-proxy/src/main/resources
+2022-09-05 15:34:39,144 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul-proxy/src/main/resources
+2022-09-05 15:34:39,152 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul-proxy/src/test/java
+2022-09-05 15:34:39,775 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2022-09-05 15:34:39,780 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-05 15:34:40,069 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:34:40,817 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul-proxy/src/main/java
+2022-09-05 15:34:40,817 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul-proxy/src/main/resources
+2022-09-05 15:34:40,818 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul-proxy/src/main/resources
+2022-09-05 15:34:40,819 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul-proxy/src/test/java
+2022-09-05 15:34:41,259 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-09-05 15:34:46,068 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:34:46,068 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:34:46,075 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:34:46,098 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:34:46,102 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:34:46,102 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:34:46,102 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:35:21,330 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:36:33,761 [Worker-17: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/zuul-proxy/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:36:34,788 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:36:52,295 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:36:53,214 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:36:53,215 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:36:53,217 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:36:53,218 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:36:53,238 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:36:53,238 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:36:53,239 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:36:54,765 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:36:54,766 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:36:54,768 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:36:54,785 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:36:54,787 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:36:54,787 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:36:54,788 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:38:00,851 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:38:01,412 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:38:01,412 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:38:01,415 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:38:01,416 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:38:01,418 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:38:01,418 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:38:01,418 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:38:03,159 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:38:03,159 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:38:03,160 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:38:03,177 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:38:03,180 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:38:03,180 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:38:03,181 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:38:35,098 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:38:50,839 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:38:51,325 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:38:51,325 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:38:51,330 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:38:51,330 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:38:51,333 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:38:51,334 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:38:51,334 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:42:10,435 [Worker-16: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/zuul-proxy/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:42:10,667 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:45:54,138 [Worker-19: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/zuul-proxy/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:45:54,353 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:46:38,088 [Worker-17: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/zuul-proxy/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:46:38,245 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:48:12,824 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.2.9.RELEASE/spring-cloud-starter-netflix-zuul-2.2.9.RELEASE.pom
+2022-09-05 15:48:13,947 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.2.9.RELEASE/spring-cloud-starter-netflix-zuul-2.2.9.RELEASE.pom
+2022-09-05 15:48:14,444 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix/2.2.9.RELEASE/spring-cloud-starter-netflix-2.2.9.RELEASE.pom
+2022-09-05 15:48:14,956 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix/2.2.9.RELEASE/spring-cloud-starter-netflix-2.2.9.RELEASE.pom
+2022-09-05 15:48:15,218 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/2.2.9.RELEASE/spring-cloud-netflix-2.2.9.RELEASE.pom
+2022-09-05 15:48:15,835 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/2.2.9.RELEASE/spring-cloud-netflix-2.2.9.RELEASE.pom
+2022-09-05 15:48:16,065 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.3.5.RELEASE/spring-cloud-build-2.3.5.RELEASE.pom
+2022-09-05 15:48:16,583 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.3.5.RELEASE/spring-cloud-build-2.3.5.RELEASE.pom
+2022-09-05 15:48:16,817 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.3.5.RELEASE/spring-cloud-build-dependencies-2.3.5.RELEASE.pom
+2022-09-05 15:48:17,059 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.3.5.RELEASE/spring-cloud-build-dependencies-2.3.5.RELEASE.pom
+2022-09-05 15:48:17,311 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.3.12.RELEASE/spring-boot-dependencies-2.3.12.RELEASE.pom
+2022-09-05 15:48:17,790 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.3.12.RELEASE/spring-boot-dependencies-2.3.12.RELEASE.pom
+2022-09-05 15:48:18,045 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.6.1/java-driver-bom-4.6.1.pom
+2022-09-05 15:48:18,281 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.6.1/java-driver-bom-4.6.1.pom
+2022-09-05 15:48:18,512 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.22/metrics-bom-4.1.22.pom
+2022-09-05 15:48:18,753 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.22/metrics-bom-4.1.22.pom
+2022-09-05 15:48:18,992 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.22/metrics-parent-4.1.22.pom
+2022-09-05 15:48:19,228 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.22/metrics-parent-4.1.22.pom
+2022-09-05 15:48:19,455 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+2022-09-05 15:48:19,702 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+2022-09-05 15:48:19,932 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+2022-09-05 15:48:20,174 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+2022-09-05 15:48:20,408 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.30.1/jersey-bom-2.30.1.pom
+2022-09-05 15:48:20,667 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.30.1/jersey-bom-2.30.1.pom
+2022-09-05 15:48:20,922 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.42.v20210604/jetty-bom-9.4.42.v20210604.pom
+2022-09-05 15:48:21,166 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.42.v20210604/jetty-bom-9.4.42.v20210604.pom
+2022-09-05 15:48:21,402 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.6.3/junit-bom-5.6.3.pom
+2022-09-05 15:48:21,638 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.6.3/junit-bom-5.6.3.pom
+2022-09-05 15:48:21,866 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.3.72/kotlin-bom-1.3.72.pom
+2022-09-05 15:48:22,100 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.3.72/kotlin-bom-1.3.72.pom
+2022-09-05 15:48:22,329 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.8/kotlinx-coroutines-bom-1.3.8.pom
+2022-09-05 15:48:22,572 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.8/kotlinx-coroutines-bom-1.3.8.pom
+2022-09-05 15:48:22,814 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.5.14/micrometer-bom-1.5.14.pom
+2022-09-05 15:48:23,046 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.5.14/micrometer-bom-1.5.14.pom
+2022-09-05 15:48:23,278 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.65.Final/netty-bom-4.1.65.Final.pom
+2022-09-05 15:48:23,512 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.65.Final/netty-bom-4.1.65.Final.pom
+2022-09-05 15:48:23,743 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/r2dbc/r2dbc-bom/Arabba-SR10/r2dbc-bom-Arabba-SR10.pom
+2022-09-05 15:48:23,974 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/r2dbc/r2dbc-bom/Arabba-SR10/r2dbc-bom-Arabba-SR10.pom
+2022-09-05 15:48:24,208 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR20/reactor-bom-Dysprosium-SR20.pom
+2022-09-05 15:48:24,441 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR20/reactor-bom-Dysprosium-SR20.pom
+2022-09-05 15:48:24,677 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.5/rsocket-bom-1.0.5.pom
+2022-09-05 15:48:24,918 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.5/rsocket-bom-1.0.5.pom
+2022-09-05 15:48:25,173 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Neumann-SR9/spring-data-releasetrain-Neumann-SR9.pom
+2022-09-05 15:48:25,405 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Neumann-SR9/spring-data-releasetrain-Neumann-SR9.pom
+2022-09-05 15:48:25,637 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.3.9.RELEASE/spring-data-build-2.3.9.RELEASE.pom
+2022-09-05 15:48:25,885 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.3.9.RELEASE/spring-data-build-2.3.9.RELEASE.pom
+2022-09-05 15:48:26,119 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.15.RELEASE/spring-framework-bom-5.2.15.RELEASE.pom
+2022-09-05 15:48:26,351 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.15.RELEASE/spring-framework-bom-5.2.15.RELEASE.pom
+2022-09-05 15:48:26,589 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.3.8.RELEASE/spring-integration-bom-5.3.8.RELEASE.pom
+2022-09-05 15:48:26,819 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.3.8.RELEASE/spring-integration-bom-5.3.8.RELEASE.pom
+2022-09-05 15:48:27,052 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.3.9.RELEASE/spring-security-bom-5.3.9.RELEASE.pom
+2022-09-05 15:48:27,308 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.3.9.RELEASE/spring-security-bom-5.3.9.RELEASE.pom
+2022-09-05 15:48:27,540 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Dragonfruit-SR3/spring-session-bom-Dragonfruit-SR3.pom
+2022-09-05 15:48:27,772 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Dragonfruit-SR3/spring-session-bom-Dragonfruit-SR3.pom
+2022-09-05 15:48:28,057 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.9.RELEASE/spring-cloud-netflix-zuul-2.2.9.RELEASE.pom
+2022-09-05 15:48:28,385 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.9.RELEASE/spring-cloud-netflix-zuul-2.2.9.RELEASE.pom
+2022-09-05 15:48:28,705 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE.pom
+2022-09-05 15:48:29,015 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE.pom
+2022-09-05 15:48:29,339 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0.pom
+2022-09-05 15:48:29,607 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0.pom
+2022-09-05 15:48:29,908 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE.pom
+2022-09-05 15:48:30,143 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE.pom
+2022-09-05 15:48:30,382 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE.pom
+2022-09-05 15:48:30,611 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE.pom
+2022-09-05 15:48:30,853 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE.pom
+2022-09-05 15:48:31,087 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE.pom
+2022-09-05 15:48:31,346 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE.pom
+2022-09-05 15:48:31,577 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE.pom
+2022-09-05 15:48:31,811 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.pom
+2022-09-05 15:48:32,046 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.pom
+2022-09-05 15:48:32,276 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+2022-09-05 15:48:32,517 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+2022-09-05 15:48:32,754 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom
+2022-09-05 15:48:33,006 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom
+2022-09-05 15:48:33,244 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom
+2022-09-05 15:48:33,488 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom
+2022-09-05 15:48:33,750 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0/guava-16.0.pom
+2022-09-05 15:48:33,998 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0/guava-16.0.pom
+2022-09-05 15:48:34,294 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0/guava-parent-16.0.pom
+2022-09-05 15:48:34,584 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0/guava-parent-16.0.pom
+2022-09-05 15:48:34,817 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.pom
+2022-09-05 15:48:35,068 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.pom
+2022-09-05 15:48:35,299 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom
+2022-09-05 15:48:35,548 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom
+2022-09-05 15:48:35,811 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom
+2022-09-05 15:48:36,228 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom
+2022-09-05 15:48:36,489 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom
+2022-09-05 15:48:36,813 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom
+2022-09-05 15:48:37,068 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18.pom
+2022-09-05 15:48:37,379 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18.pom
+2022-09-05 15:48:37,702 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.3/jackson-module-afterburner-2.13.3.pom
+2022-09-05 15:48:38,011 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.3/jackson-module-afterburner-2.13.3.pom
+2022-09-05 15:48:38,244 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.13.3/jackson-modules-base-2.13.3.pom
+2022-09-05 15:48:38,474 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.13.3/jackson-modules-base-2.13.3.pom
+2022-09-05 15:48:38,714 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.pom
+2022-09-05 15:48:38,949 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.pom
+2022-09-05 15:48:39,178 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.pom
+2022-09-05 15:48:39,409 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.pom
+2022-09-05 15:48:39,661 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom
+2022-09-05 15:48:39,895 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom
+2022-09-05 15:48:40,211 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom
+2022-09-05 15:48:40,497 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom
+2022-09-05 15:48:40,828 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.pom
+2022-09-05 15:48:41,075 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.pom
+2022-09-05 15:48:41,413 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE.pom
+2022-09-05 15:48:41,691 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE.pom
+2022-09-05 15:48:42,029 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.pom
+2022-09-05 15:48:42,258 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.pom
+2022-09-05 15:48:42,488 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.pom
+2022-09-05 15:48:42,726 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.pom
+2022-09-05 15:48:42,957 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.pom
+2022-09-05 15:48:43,190 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.pom
+2022-09-05 15:48:43,436 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.pom
+2022-09-05 15:48:43,667 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.pom
+2022-09-05 15:48:43,900 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.pom
+2022-09-05 15:48:44,150 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.pom
+2022-09-05 15:48:44,381 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.pom
+2022-09-05 15:48:44,613 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.pom
+2022-09-05 15:48:44,880 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.pom
+2022-09-05 15:48:45,111 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.pom
+2022-09-05 15:48:45,347 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom
+2022-09-05 15:48:45,590 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom
+2022-09-05 15:48:45,826 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom
+2022-09-05 15:48:46,068 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom
+2022-09-05 15:48:46,301 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.pom
+2022-09-05 15:48:46,542 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.pom
+2022-09-05 15:48:46,773 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.pom
+2022-09-05 15:48:47,016 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.pom
+2022-09-05 15:48:47,253 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.pom
+2022-09-05 15:48:47,487 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.pom
+2022-09-05 15:48:47,717 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.pom
+2022-09-05 15:48:47,950 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.pom
+2022-09-05 15:48:48,179 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom
+2022-09-05 15:48:48,434 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom
+2022-09-05 15:48:48,664 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom
+2022-09-05 15:48:48,899 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom
+2022-09-05 15:48:49,129 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.pom
+2022-09-05 15:48:49,358 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.pom
+2022-09-05 15:48:49,606 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.pom
+2022-09-05 15:48:49,840 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.pom
+2022-09-05 15:48:50,075 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.6.0/archaius-core-0.6.0.pom
+2022-09-05 15:48:50,313 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.6.0/archaius-core-0.6.0.pom
+2022-09-05 15:48:50,553 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom
+2022-09-05 15:48:50,786 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom
+2022-09-05 15:48:51,016 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom
+2022-09-05 15:48:51,248 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom
+2022-09-05 15:48:51,482 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.2/servo-core-0.7.2.pom
+2022-09-05 15:48:51,712 [Worker-21: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.2/servo-core-0.7.2.pom
+2022-09-05 15:48:52,007 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.9.RELEASE/spring-cloud-netflix-zuul-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,240 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.2.9.RELEASE/spring-cloud-starter-netflix-zuul-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,240 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,245 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0.jar
+2022-09-05 15:48:52,245 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,469 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.9.RELEASE/spring-cloud-netflix-zuul-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,470 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.2.9.RELEASE/spring-cloud-starter-netflix-zuul-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,470 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,477 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0.jar
+2022-09-05 15:48:52,707 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE.jar
+2022-09-05 15:48:52,746 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18.jar
+2022-09-05 15:48:52,767 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar
+2022-09-05 15:48:53,078 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.3/jackson-module-afterburner-2.13.3.jar
+2022-09-05 15:48:53,080 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE.jar
+2022-09-05 15:48:53,175 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18.jar
+2022-09-05 15:48:53,176 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE.jar
+2022-09-05 15:48:53,304 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar
+2022-09-05 15:48:53,310 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.jar
+2022-09-05 15:48:53,522 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar
+2022-09-05 15:48:53,525 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar
+2022-09-05 15:48:54,674 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.3/jackson-module-afterburner-2.13.3.jar
+2022-09-05 15:48:54,694 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE.jar
+2022-09-05 15:48:54,697 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar
+2022-09-05 15:48:54,699 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.jar
+2022-09-05 15:48:54,898 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar
+2022-09-05 15:48:55,116 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar
+2022-09-05 15:48:55,123 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE.jar
+2022-09-05 15:48:55,145 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.jar
+2022-09-05 15:48:55,154 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar
+2022-09-05 15:48:55,344 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar
+2022-09-05 15:48:55,373 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar
+2022-09-05 15:48:55,479 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.jar
+2022-09-05 15:48:55,480 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar
+2022-09-05 15:48:55,575 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar
+2022-09-05 15:48:55,597 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar
+2022-09-05 15:48:55,786 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.jar
+2022-09-05 15:48:55,792 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar
+2022-09-05 15:48:55,847 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.jar
+2022-09-05 15:48:55,851 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar
+2022-09-05 15:48:56,004 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar
+2022-09-05 15:48:56,020 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar
+2022-09-05 15:48:56,554 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.jar
+2022-09-05 15:48:56,554 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar
+2022-09-05 15:48:56,554 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.jar
+2022-09-05 15:48:56,554 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar
+2022-09-05 15:48:56,784 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE.jar
+2022-09-05 15:48:56,784 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.jar
+2022-09-05 15:48:57,000 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE.jar
+2022-09-05 15:48:57,003 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar
+2022-09-05 15:48:57,005 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+2022-09-05 15:48:57,024 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE.jar
+2022-09-05 15:48:57,225 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.jar
+2022-09-05 15:48:57,232 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE.jar
+2022-09-05 15:48:57,264 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar
+2022-09-05 15:48:57,274 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+2022-09-05 15:48:57,504 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar
+2022-09-05 15:48:59,802 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:euroka-server:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\euroka-server\pom.xml.
+2022-09-05 15:49:00,164 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:49:00,355 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:admin-micro-service:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\pom.xml.
+2022-09-05 15:49:00,546 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:mentor-micro-service:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\mentor-micro-service\pom.xml.
+2022-09-05 15:49:00,631 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:tech-stack-micro-service:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\pom.xml.
+2022-09-05 15:49:00,714 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:candidate-micro-service:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\pom.xml.
+2022-09-05 15:49:04,063 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:04,064 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:04,067 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:04,068 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:04,071 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:04,072 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:04,072 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:49:05,088 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.1.3/spring-cloud-starter-netflix-eureka-server-3.1.3-javadoc.jar
+2022-09-05 15:49:05,093 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.1.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.1.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:49:05,236 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:05,237 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:05,237 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:05,296 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:05,301 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:05,301 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:05,301 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\src\test\resources
+2022-09-05 15:49:05,761 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:05,762 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:05,762 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:05,780 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:05,782 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:05,783 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:05,783 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 15:49:05,830 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:05,830 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:05,831 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:05,839 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:05,841 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:05,841 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:05,841 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\euroka-server\src\test\resources
+2022-09-05 15:49:06,274 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:06,274 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:06,275 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:06,287 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:06,289 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:06,289 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:06,289 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\mentor-micro-service\src\test\resources
+2022-09-05 15:49:06,542 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.2.9.RELEASE/spring-cloud-starter-netflix-zuul-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:06,545 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-zuul:2.2.9.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:sources:2.2.9.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:49:07,297 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:07,297 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:07,298 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:07,308 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:07,310 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:07,311 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:07,311 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 15:49:07,697 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:49:08,337 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.9.RELEASE/spring-cloud-netflix-zuul-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:08,407 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:08,408 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:08,410 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:49:08,413 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:49:08,415 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:49:08,415 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:49:08,415 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:49:09,258 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.9.RELEASE/spring-cloud-netflix-zuul-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:09,322 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-zuul:2.2.9.RELEASE
+2022-09-05 15:49:10,932 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:11,405 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:11,487 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.9.RELEASE
+2022-09-05 15:49:12,415 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar
+2022-09-05 15:49:12,916 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar
+2022-09-05 15:49:12,963 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.netflix-commons:netflix-commons-util:0.3.0
+2022-09-05 15:49:13,892 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:13,894 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.9.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:sources:2.2.9.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:49:14,818 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:15,343 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:15,380 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.9.RELEASE
+2022-09-05 15:49:16,309 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar
+2022-09-05 15:49:17,264 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar
+2022-09-05 15:49:17,303 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.hystrix:hystrix-core:1.5.18
+2022-09-05 15:49:18,257 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18-sources.jar
+2022-09-05 15:49:18,727 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18-sources.jar
+2022-09-05 15:49:18,771 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.hystrix:hystrix-serialization:1.5.18
+2022-09-05 15:49:19,700 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.3/jackson-module-afterburner-2.13.3-sources.jar
+2022-09-05 15:49:20,288 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.3/jackson-module-afterburner-2.13.3-sources.jar
+2022-09-05 15:49:20,355 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-afterburner:2.13.3
+2022-09-05 15:49:21,340 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18-sources.jar
+2022-09-05 15:49:21,814 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18-sources.jar
+2022-09-05 15:49:21,866 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.hystrix:hystrix-metrics-event-stream:1.5.18
+2022-09-05 15:49:22,753 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar
+2022-09-05 15:49:23,472 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar
+2022-09-05 15:49:23,530 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.hystrix:hystrix-javanica:1.5.18
+2022-09-05 15:49:24,499 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
+2022-09-05 15:49:34,740 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
+2022-09-05 15:49:34,869 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.4
+2022-09-05 15:49:35,910 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1-sources.jar
+2022-09-05 15:49:36,413 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1-sources.jar
+2022-09-05 15:49:36,471 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxjava-reactive-streams:1.2.1
+2022-09-05 15:49:37,518 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE-sources.jar
+2022-09-05 15:49:37,520 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.9.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:sources:2.2.9.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:49:38,719 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0-sources.jar
+2022-09-05 15:49:39,377 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0-sources.jar
+2022-09-05 15:49:39,428 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon:2.3.0
+2022-09-05 15:49:40,738 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0-sources.jar
+2022-09-05 15:49:41,261 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0-sources.jar
+2022-09-05 15:49:41,305 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-transport:2.3.0
+2022-09-05 15:49:42,497 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9-sources.jar
+2022-09-05 15:49:43,287 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9-sources.jar
+2022-09-05 15:49:43,342 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxnetty-contexts:0.4.9
+2022-09-05 15:49:44,608 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9-sources.jar
+2022-09-05 15:49:45,158 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9-sources.jar
+2022-09-05 15:49:45,209 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxnetty-servo:0.4.9
+2022-09-05 15:49:46,368 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar
+2022-09-05 15:49:50,634 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar
+2022-09-05 15:49:50,687 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxnetty:0.4.9
+2022-09-05 15:49:51,819 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar
+2022-09-05 15:49:52,386 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar
+2022-09-05 15:49:52,444 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-core:2.3.0
+2022-09-05 15:49:53,568 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0-sources.jar
+2022-09-05 15:49:54,050 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0-sources.jar
+2022-09-05 15:49:54,114 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-httpclient:2.3.0
+2022-09-05 15:49:55,033 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-sources.jar
+2022-09-05 15:49:55,870 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-sources.jar
+2022-09-05 15:49:55,975 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-client:1.19.1
+2022-09-05 15:49:56,947 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar
+2022-09-05 15:49:57,876 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar
+2022-09-05 15:49:57,922 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-loadbalancer:2.3.0
+2022-09-05 15:49:59,940 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar
+2022-09-05 15:50:00,408 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar
+2022-09-05 15:50:00,450 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.netflix-commons:netflix-statistics:0.1.1
+2022-09-05 15:50:01,441 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-sources.jar
+2022-09-05 15:50:15,500 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-sources.jar
+2022-09-05 15:50:15,574 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxjava:1.3.8
+2022-09-05 15:50:24,518 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE-sources.jar
+2022-09-05 15:50:24,526 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.2.9.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:sources:2.2.9.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:50:25,372 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE-sources.jar
+2022-09-05 15:50:25,786 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE-sources.jar
+2022-09-05 15:50:25,872 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-archaius:2.2.9.RELEASE
+2022-09-05 15:50:26,779 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7-sources.jar
+2022-09-05 15:50:27,572 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7-sources.jar
+2022-09-05 15:50:27,669 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.archaius:archaius-core:0.7.7
+2022-09-05 15:50:28,481 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
+2022-09-05 15:50:28,883 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
+2022-09-05 15:50:28,958 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.1
+2022-09-05 15:50:29,793 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar
+2022-09-05 15:50:30,261 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar
+2022-09-05 15:50:30,341 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.zuul:zuul-core:1.3.1
+2022-09-05 15:50:31,132 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2022-09-05 15:50:32,231 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2022-09-05 15:50:32,368 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.4
+2022-09-05 15:50:33,537 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:50:33,537 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:50:33,537 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:50:33,542 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:50:33,545 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:50:33,545 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:50:33,545 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:51:46,606 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:51:46,607 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:51:46,607 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:51:46,614 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:51:46,616 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:51:46,616 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:51:46,616 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:51:53,901 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:51:53,901 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:51:53,902 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:51:53,905 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:51:53,908 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:51:53,908 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:51:53,908 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:52:15,044 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 15:52:15,923 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:52:15,924 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:52:15,924 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:52:15,926 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:52:15,929 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:52:15,929 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:52:15,929 [Worker-21: Launching zuul-proxy - ZuulProxyApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:52:25,994 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.2.9.RELEASE/spring-cloud-starter-netflix-zuul-2.2.9.RELEASE-javadoc.jar
+2022-09-05 15:52:25,998 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-zuul:2.2.9.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:javadoc:2.2.9.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:52:26,956 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE-javadoc.jar
+2022-09-05 15:52:27,433 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE-javadoc.jar
+2022-09-05 15:52:27,484 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.9.RELEASE
+2022-09-05 15:52:28,487 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE-javadoc.jar
+2022-09-05 15:52:28,974 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.9.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.9.RELEASE-javadoc.jar
+2022-09-05 15:52:29,037 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.9.RELEASE
+2022-09-05 15:52:29,973 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE-javadoc.jar
+2022-09-05 15:52:29,976 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.2.9.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:javadoc:2.2.9.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-09-05 15:52:31,506 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:52:31,506 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:52:31,507 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:52:31,513 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:52:31,516 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:52:31,517 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:52:31,517 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 15:52:32,734 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:52:32,734 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:52:32,735 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 15:52:32,740 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 15:52:32,742 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 15:52:32,742 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 15:52:32,743 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 16:16:49,469 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:16:49,474 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:16:49,477 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:16:49,515 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:16:49,519 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:16:49,519 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:16:49,519 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 16:18:02,567 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:18:02,568 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:18:02,569 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:18:02,579 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:18:02,583 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:18:02,583 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:18:02,583 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\mentor-micro-service\src\test\resources
+2022-09-05 16:18:49,283 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:18:49,283 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:18:49,283 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:18:49,319 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:18:49,324 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:18:49,324 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:18:49,324 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 16:19:31,146 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:19:31,146 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:19:31,146 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:19:31,150 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:19:31,150 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:19:31,150 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:19:31,150 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\euroka-server\src\test\resources
+2022-09-05 16:22:38,444 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:22:38,444 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:22:38,446 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:22:38,450 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:22:38,453 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:22:38,453 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:22:38,453 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 16:25:14,493 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:25:14,494 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:25:14,498 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:25:14,547 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:25:14,551 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:25:14,551 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:25:14,551 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 16:34:51,477 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:34:51,478 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:34:51,480 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:34:51,548 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:34:51,550 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:34:51,550 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:34:51,551 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 16:52:27,581 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:52:27,597 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:52:27,597 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:52:27,671 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:52:27,673 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:52:27,673 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:52:27,673 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 16:54:06,735 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:54:06,735 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:54:06,737 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:54:06,916 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:54:06,918 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:54:06,919 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:54:06,919 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 16:54:55,020 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:54:55,021 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:54:55,022 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:54:55,096 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:54:55,098 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:54:55,098 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:54:55,098 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 16:55:56,627 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:55:56,627 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:55:56,627 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 16:55:56,676 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 16:55:56,678 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 16:55:56,678 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 16:55:56,678 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 17:03:40,942 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:03:40,943 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:03:40,943 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:03:40,950 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 17:03:40,951 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:03:40,951 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:03:40,951 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 17:14:11,036 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:14:11,036 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:14:11,037 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:14:11,070 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 17:14:11,071 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:14:11,071 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:14:11,071 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 17:20:56,013 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:20:56,016 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:20:56,018 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:20:56,094 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 17:20:56,095 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:20:56,096 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:20:56,096 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 17:21:14,675 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:21:14,675 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:21:14,676 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:21:14,688 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 17:21:14,690 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:21:14,690 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:21:14,690 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 17:22:09,092 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:22:09,092 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:22:09,093 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:22:09,110 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 17:22:09,111 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:22:09,111 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:22:09,111 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\mentor-micro-service\src\test\resources
+2022-09-05 17:22:55,286 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:22:55,286 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:22:55,287 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:22:55,332 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:22:55,336 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:22:55,337 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:22:55,337 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 17:23:28,375 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:23:28,376 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:23:28,377 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:23:28,393 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:23:28,395 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:23:28,395 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:23:28,395 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 17:23:59,861 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:23:59,861 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:23:59,862 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:23:59,871 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 17:23:59,874 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 17:23:59,874 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 17:23:59,874 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 22:15:46,872 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-05 22:15:51,782 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:15:51,782 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:15:51,790 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:15:51,821 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:15:51,827 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:15:51,827 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:15:51,827 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 22:21:05,331 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:21:05,335 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:21:05,336 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:21:05,366 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:21:05,371 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:21:05,371 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:21:05,372 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:28:03,430 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:28:03,431 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:28:03,441 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:28:03,452 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:28:03,455 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:28:03,455 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:28:03,455 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:31:48,224 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:31:48,224 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:31:48,224 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:31:48,233 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:31:48,233 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:31:48,233 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:31:48,233 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:34:07,503 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:34:07,504 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:34:07,504 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:34:07,511 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:34:07,512 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:34:07,512 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:34:07,512 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\src\test\resources
+2022-09-05 22:34:34,934 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:34:34,934 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:34:34,935 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:34:34,943 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:34:34,944 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:34:34,945 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:34:34,945 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:36:00,000 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:36:00,000 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:36:00,001 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:36:00,008 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:36:00,010 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:36:00,010 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:36:00,010 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:36:56,423 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:36:56,423 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:36:56,427 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:36:56,436 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:36:56,441 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:36:56,441 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:36:56,441 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\src\test\resources
+2022-09-05 22:36:59,817 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:36:59,817 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:36:59,817 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:36:59,823 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:36:59,824 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:36:59,824 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:36:59,824 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\src\test\resources
+2022-09-05 22:38:35,577 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:38:35,577 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:38:35,579 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:38:35,588 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:38:35,591 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:38:35,591 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:38:35,591 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:39:36,505 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:39:36,505 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:39:36,506 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:39:36,510 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:39:36,512 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:39:36,512 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:39:36,512 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:40:17,363 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:40:17,363 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:40:17,364 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:40:17,372 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:40:17,374 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:40:17,374 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:40:17,374 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:41:54,683 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:41:54,683 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:41:54,683 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:41:54,688 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:41:54,689 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:41:54,690 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:41:54,690 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\src\test\resources
+2022-09-05 22:42:34,317 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:42:34,317 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:42:34,318 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:42:34,324 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:42:34,327 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:42:34,327 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:42:34,327 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 22:43:02,329 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:43:02,330 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:43:02,331 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 22:43:02,338 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 22:43:02,340 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:43:02,340 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 22:43:02,340 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:03:54,470 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:03:54,470 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:03:54,471 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:03:54,512 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:03:54,516 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:03:54,516 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:03:54,516 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:04:24,369 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:04:24,369 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:04:24,370 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:04:24,393 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:04:24,395 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:04:24,395 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:04:24,395 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:04:54,716 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:04:54,716 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:04:54,716 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:04:54,721 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:04:54,723 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:04:54,723 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:04:54,723 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:14:54,226 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:14:54,226 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:14:54,227 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:14:54,274 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:14:54,276 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:14:54,276 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:14:54,276 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:15:41,778 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:15:41,779 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:15:41,779 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:15:41,788 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:15:41,790 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:15:41,790 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:15:41,790 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:16:58,286 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:16:58,286 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:16:58,287 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:16:58,291 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:16:58,293 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:16:58,293 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:16:58,293 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:19:42,317 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:19:42,318 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:19:42,318 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:19:42,328 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:19:42,329 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:19:42,329 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:19:42,330 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:23:04,339 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:zuul-proxy:0.0.1-SNAPSHOT @ C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\pom.xml.
+2022-09-05 23:23:05,406 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:23:05,406 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:23:05,406 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:23:05,411 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:23:05,412 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:23:05,412 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:23:05,412 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 23:23:07,166 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:23:07,166 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:23:07,166 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:23:07,168 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:23:07,171 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:23:07,171 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:23:07,171 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 23:29:28,772 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:29:28,772 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:29:28,772 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:29:28,780 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:29:28,781 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:29:28,781 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:29:28,782 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\admin-micro-service\src\test\resources
+2022-09-05 23:29:32,871 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:29:32,871 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:29:32,871 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:29:32,897 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:29:32,899 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:29:32,899 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:29:32,899 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\zuul-proxy\src\test\resources
+2022-09-05 23:30:03,145 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:30:03,146 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:30:03,147 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:30:03,248 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:30:03,249 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:30:03,249 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:30:03,249 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:30:46,751 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:30:46,751 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:30:46,753 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:30:46,805 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:30:46,807 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:30:46,808 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:30:46,808 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:31:15,058 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:31:15,058 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:31:15,059 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:31:15,068 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:31:15,070 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:31:15,070 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:31:15,071 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:32:04,785 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:32:04,785 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:32:04,787 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:32:04,797 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:32:04,798 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:32:04,798 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:32:04,798 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:32:42,777 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:32:42,777 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:32:42,778 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:32:42,785 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:32:42,786 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:32:42,786 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:32:42,786 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:33:26,736 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:33:26,736 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:33:26,737 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:33:26,743 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:33:26,745 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:33:26,745 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:33:26,745 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:34:21,080 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:34:21,080 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:34:21,081 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:34:21,089 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:34:21,091 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:34:21,092 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:34:21,092 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\tech-stack-micro-service\src\test\resources
+2022-09-05 23:35:46,618 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:35:46,618 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:35:46,619 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:35:46,625 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-05 23:35:46,627 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:35:46,627 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:35:46,627 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\mentor-micro-service\src\test\resources
+2022-09-05 23:36:27,061 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:36:27,061 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:36:27,061 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:36:27,070 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:36:27,073 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:36:27,073 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:36:27,073 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 23:37:02,092 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:37:02,092 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:37:02,093 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:37:02,102 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:37:02,105 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:37:02,105 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:37:02,105 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources
+2022-09-05 23:37:32,399 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:37:32,400 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:37:32,401 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:37:32,405 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-05 23:37:32,407 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 23:37:32,407 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-05 23:37:32,407 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANOJ\OneDrive\Desktop\Micro Services STS\candidate-micro-service\src\test\resources

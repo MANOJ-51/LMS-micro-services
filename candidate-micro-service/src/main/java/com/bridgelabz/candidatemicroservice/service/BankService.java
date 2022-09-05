@@ -39,7 +39,7 @@ public class BankService implements IBankService{
      */
     @Override
     public ResponseClass addBankDetails(String token,BankDTO bankDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             BankModel bankModel = new BankModel(bankDTO);
             bankModel.setCreatedDate(LocalDateTime.now());
@@ -56,7 +56,7 @@ public class BankService implements IBankService{
      */
     @Override
     public ResponseClass editBank(String token,Long id, BankDTO bankDetailsDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<BankModel> isBankPresent = iBankRepository.findById(id);
             if (isBankPresent.isPresent()){
@@ -80,7 +80,7 @@ public class BankService implements IBankService{
      */
     @Override
     public List<BankModel> viewList(String token) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
         List<BankModel> getList = iBankRepository.findAll();
             if (getList.size()>0){
@@ -97,7 +97,7 @@ public class BankService implements IBankService{
      */
     @Override
     public ResponseClass removeBank(String token,Long id) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:6666/adminAPIS/validate"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<BankModel> isBankPresent = iBankRepository.findById(id);
             if (isBankPresent.isPresent()){
