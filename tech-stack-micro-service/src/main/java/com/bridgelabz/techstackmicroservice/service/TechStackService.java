@@ -40,7 +40,7 @@ public class TechStackService implements ITechStackService {
      */
     @Override
     public ResponseClass addTech(String token, TechStackDTO techStackDTO) {
-        boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
+        boolean isUserPresent = restTemplate.getForObject("http://admin-service/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             TechStackModel techStackModel = new TechStackModel(techStackDTO);
             techStackModel.setCreatedDate(LocalDateTime.now());
@@ -59,7 +59,7 @@ public class TechStackService implements ITechStackService {
      */
     @Override
     public ResponseClass editTech(String token, Long id, TechStackDTO techStackDTO) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://admin-service/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<TechStackModel> isTechPresent = iTechStackRepository.findById(id);
             if (isTechPresent.isPresent()){
@@ -80,7 +80,7 @@ public class TechStackService implements ITechStackService {
      */
     @Override
     public List<TechStackModel> viewList(String token) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://admin-service/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             List<TechStackModel> isTechPresent = iTechStackRepository.findAll();
             if (isTechPresent.size()>0){
@@ -98,7 +98,7 @@ public class TechStackService implements ITechStackService {
      */
     @Override
     public ResponseClass removeTech(String token, Long id) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://admin-service/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<TechStackModel> isTechPresent = iTechStackRepository.findById(id);
             if (isTechPresent.isPresent()){
@@ -117,7 +117,7 @@ public class TechStackService implements ITechStackService {
      */
     @Override
     public ResponseClass addPath(String token, Long techId, String path) {
-    	boolean isUserPresent = restTemplate.getForObject("http://localhost:5666/adminAPIS/validate/"+token, Boolean.class);
+    	boolean isUserPresent = restTemplate.getForObject("http://admin-service/adminAPIS/validate/"+token, Boolean.class);
         if (isUserPresent) {
             Optional<TechStackModel> isTechPresent = iTechStackRepository.findById(techId);
             if (isTechPresent.isPresent()){
